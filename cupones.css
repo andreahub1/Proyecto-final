@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+<<<<<<< HEAD
 *{
+=======
+* {
+>>>>>>> 0ed27cf (Cupones realizados)
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,6 +12,7 @@
     list-style: none;
 }
 
+<<<<<<< HEAD
 body{
     background-color: #030303;
     font-family: "Bebas Neue", sans-serif;
@@ -15,12 +20,25 @@ body{
 }
 
 .container{
+=======
+body {
+    background-color: #030303;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+>>>>>>> 0ed27cf (Cupones realizados)
     max-width: 1200px;
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 
 .menu{
+=======
+.menu {
+>>>>>>> 0ed27cf (Cupones realizados)
     position: absolute;
     top: 0;
     left: 0;
@@ -30,25 +48,42 @@ body{
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .logo{
+=======
+.logo {
+>>>>>>> 0ed27cf (Cupones realizados)
     font-size: 35px;
     color: #FFFFFF;
 }
 
+<<<<<<< HEAD
 .menu .navbar ul li{
+=======
+.menu .navbar ul li {
+>>>>>>> 0ed27cf (Cupones realizados)
     position: relative;
     float: left;
 }
 
+<<<<<<< HEAD
 .menu .navbar ul li a{
     font-style: 22px;
+=======
+.menu .navbar ul li a {
+    font-size: 22px;
+>>>>>>> 0ed27cf (Cupones realizados)
     padding: 20px;
     color: #FFFFFF;
     display: block;
 }
 
 .menu .navbar ul li a:hover {
+<<<<<<< HEAD
 color: #FF2F28;
+=======
+    color: #FF2F28;
+>>>>>>> 0ed27cf (Cupones realizados)
 }
 
 #menu {
@@ -59,6 +94,7 @@ color: #FF2F28;
     width: 25px;
 }
 
+<<<<<<< HEAD
 .menu label {
     cursor: pointer;
     display: none;
@@ -70,14 +106,26 @@ color: #FF2F28;
     width: 100%;
 }
 
+=======
+>>>>>>> 0ed27cf (Cupones realizados)
 .btn-1 {
     display: inline-block;
     padding: 7px 20px;
     background-color: #FF2F28;
     color: #FFFFFF;
     font-size: 20px;
+<<<<<<< HEAD
 }
 
+=======
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-1:hover {
+    background-color: #FF4A4A;
+}
+>>>>>>> 0ed27cf (Cupones realizados)
 
 .header {
     background-position: center center;
@@ -86,4 +134,87 @@ color: #FF2F28;
     min-height: 20vh;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
+=======
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #FF2F28;
+}
+
+.combo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.Cupon {
+    text-align: center;
+    background-color: #1F1F1F;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Cupon img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Cupon:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+.Cupon h3 {
+    font-size: 20px;
+    color: #FF2F28;
+}
+
+.Cupon p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    margin-top: 100px;
+    border-top: 1px solid #FF2F283D;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer h3 {
+    font-size: 30px;
+}
+
+.footer a {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 20px;
+    display: block;
+}
+
+.footer a:hover {
+    color: #FF2F28;
+>>>>>>> 0ed27cf (Cupones realizados)
 }
