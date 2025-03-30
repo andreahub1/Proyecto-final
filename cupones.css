@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-<<<<<<< HEAD
-*{
-=======
 * {
->>>>>>> 0ed27cf (Cupones realizados)
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,15 +8,6 @@
     list-style: none;
 }
 
-<<<<<<< HEAD
-body{
-    background-color: #030303;
-    font-family: "Bebas Neue", sans-serif;
-    color:#FFFFFF
-}
-
-.container{
-=======
 body {
     background-color: #030303;
     font-family: "Bebas Neue", sans-serif;
@@ -28,17 +15,12 @@ body {
 }
 
 .container {
->>>>>>> 0ed27cf (Cupones realizados)
+
     max-width: 1200px;
     margin: 0 auto;
 }
 
-<<<<<<< HEAD
-
-.menu{
-=======
 .menu {
->>>>>>> 0ed27cf (Cupones realizados)
     position: absolute;
     top: 0;
     left: 0;
@@ -48,42 +30,25 @@ body {
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
-.logo{
-=======
 .logo {
->>>>>>> 0ed27cf (Cupones realizados)
     font-size: 35px;
     color: #FFFFFF;
 }
 
-<<<<<<< HEAD
-.menu .navbar ul li{
-=======
 .menu .navbar ul li {
->>>>>>> 0ed27cf (Cupones realizados)
     position: relative;
     float: left;
 }
 
-<<<<<<< HEAD
-.menu .navbar ul li a{
-    font-style: 22px;
-=======
 .menu .navbar ul li a {
     font-size: 22px;
->>>>>>> 0ed27cf (Cupones realizados)
     padding: 20px;
     color: #FFFFFF;
     display: block;
 }
 
 .menu .navbar ul li a:hover {
-<<<<<<< HEAD
-color: #FF2F28;
-=======
     color: #FF2F28;
->>>>>>> 0ed27cf (Cupones realizados)
 }
 
 #menu {
@@ -94,30 +59,12 @@ color: #FF2F28;
     width: 25px;
 }
 
-<<<<<<< HEAD
-.menu label {
-    cursor: pointer;
-    display: none;
-}
-
-
-.header-content {
-    display: flex;
-    width: 100%;
-}
-
-=======
->>>>>>> 0ed27cf (Cupones realizados)
 .btn-1 {
     display: inline-block;
     padding: 7px 20px;
     background-color: #FF2F28;
     color: #FFFFFF;
     font-size: 20px;
-<<<<<<< HEAD
-}
-
-=======
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -125,7 +72,6 @@ color: #FF2F28;
 .btn-1:hover {
     background-color: #FF4A4A;
 }
->>>>>>> 0ed27cf (Cupones realizados)
 
 .header {
     background-position: center center;
@@ -134,8 +80,6 @@ color: #FF2F28;
     min-height: 20vh;
     display: flex;
     align-items: center;
-<<<<<<< HEAD
-=======
 }
 
 h2 {
@@ -216,5 +160,4 @@ h3 {
 
 .footer a:hover {
     color: #FF2F28;
->>>>>>> 0ed27cf (Cupones realizados)
 }
