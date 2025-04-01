@@ -309,8 +309,6 @@ play.jpg {
     cursor: pointer;
 }
 
-<<<<<<< HEAD:CSS/style.css
-=======
 
 /* Botón de ver tráiler */
 #trailerLink {
@@ -325,7 +323,6 @@ play.jpg {
     
 }
 
->>>>>>> 0eb4d08 (Avanze 01/04/25):style.css
 /* Dropdown */
 .dropdown-content {
     display: none;
@@ -346,8 +343,6 @@ play.jpg {
 /* Mostrar el dropdown al pasar el mouse */
 .dropdown:hover .dropdown-content {
     display: block;
-<<<<<<< HEAD:CSS/style.css
-=======
 }
 
 .dosmil{
@@ -360,5 +355,4 @@ play.jpg {
         display: flex;
         align-items: center;
     }
->>>>>>> 0eb4d08 (Avanze 01/04/25):style.css
 }
