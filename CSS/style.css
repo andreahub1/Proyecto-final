@@ -19,8 +19,20 @@ body{
     margin: 0 auto;
 }
 
+.dosmil{
+    .header{
+        background-image: url(../imagenes/interestellar_fondo.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+    }
+}
+
 .header{
-    background-image: url(imagenes/bg.jpg);
+    background-image: url(../imagenes/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -305,3 +317,24 @@ play.jpg {
     cursor: pointer;
 }
 
+/* Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 100px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+
+/* Mostrar el dropdown al pasar el mouse */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
