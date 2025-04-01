@@ -126,15 +126,7 @@ color: #FF2F28;
     font-size: 20px;
 }
 
-.btn-2 {
-    width: 110px;
-    display: inline-block;
-    padding: 7px 20px;
-    background-color: #FF2F28;
-    font-size: 20px;
-    margin-top: 30px;
-    color: #FFFFFF;
-}
+
 
 .movies {
     padding: 50px 0 0 0;
@@ -317,6 +309,23 @@ play.jpg {
     cursor: pointer;
 }
 
+<<<<<<< HEAD:CSS/style.css
+=======
+
+/* Botón de ver tráiler */
+#trailerLink {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #FF2F28;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+}
+
+>>>>>>> 0eb4d08 (Avanze 01/04/25):style.css
 /* Dropdown */
 .dropdown-content {
     display: none;
@@ -337,4 +346,19 @@ play.jpg {
 /* Mostrar el dropdown al pasar el mouse */
 .dropdown:hover .dropdown-content {
     display: block;
+<<<<<<< HEAD:CSS/style.css
+=======
+}
+
+.dosmil{
+    .header{
+        background-image: url(../imagenes/interestellar_fondo.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+    }
+>>>>>>> 0eb4d08 (Avanze 01/04/25):style.css
 }

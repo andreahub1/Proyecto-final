@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+body {
+    background-color: #030303;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 22px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: #FF2F28;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: #FF2F28;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-1:hover {
+    background-color: #FF4A4A;
+}
+
+.header {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #FF2F28;
+}
+
+.combo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.Cupon {
+    text-align: center;
+    background-color: #1F1F1F;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Cupon img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Cupon:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+.Cupon h3 {
+    font-size: 20px;
+    color: #FF2F28;
+}
+
+.Cupon p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    margin-top: 100px;
+    border-top: 1px solid #FF2F283D;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer h3 {
+    font-size: 30px;
+}
+
+.footer a {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 20px;
+    display: block;
+}
+
+.footer a:hover {
+    color: #FF2F28;
+}
